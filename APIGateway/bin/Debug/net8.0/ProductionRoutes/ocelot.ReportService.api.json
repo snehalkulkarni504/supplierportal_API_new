@@ -1,0 +1,23 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "SwaggerKey": "ReportService",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7297"
+        }
+      ],
+      "UpstreamPathTemplate": "/ReportService/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    }
+
+  ]
+}

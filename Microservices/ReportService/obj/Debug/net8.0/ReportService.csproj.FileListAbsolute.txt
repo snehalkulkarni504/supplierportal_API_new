@@ -1,0 +1,143 @@
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SupplierPortal\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+D:\SupplierPortal\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.staticwebassets.endpoints.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.staticwebassets.endpoints.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+D:\Tata Power Soller\supplierportal_api\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll

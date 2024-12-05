@@ -1,0 +1,23 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "SwaggerKey": "AdminService",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7119"
+        }
+      ],
+      "UpstreamPathTemplate": "/AdminService/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    }
+
+  ]
+}

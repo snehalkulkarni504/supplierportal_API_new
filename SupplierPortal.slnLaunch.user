@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "APIGateway\\APIGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Microservices\\AdminService\\AdminService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Microservices\\SupplierService\\SupplierService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Microservices\\ReportService\\ReportService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

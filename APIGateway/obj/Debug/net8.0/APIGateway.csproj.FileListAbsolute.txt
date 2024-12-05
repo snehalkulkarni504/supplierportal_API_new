@@ -1,0 +1,379 @@
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\appsettings.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\ocelot.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\APIGateway.exe
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\APIGateway.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Ocelot.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Polly.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.dll
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+D:\SupplierPortal\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+D:\SupplierPortal\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\ocelot.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.exe
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Polly.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+C:\Users\ekm927895\Downloads\Project\supplierportal_api\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\appsettings.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\ocelot.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.staticwebassets.endpoints.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.exe
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Ocelot.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Polly.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+D:\Tata Power Soller\GitHub\supplierportal_api\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\appsettings.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\ocelot.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.staticwebassets.endpoints.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.exe
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Ocelot.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Polly.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+D:\Tata Power Soller\supplierportal_api\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll

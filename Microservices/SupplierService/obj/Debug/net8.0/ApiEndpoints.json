@@ -1,0 +1,242 @@
+[
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "Adduserdata",
+    "RelativePath": "AddRoleData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "SupplierService.Models.AddRoleData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "Adduserdata",
+    "RelativePath": "Adduserdata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "SupplierService.Models.Adduser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "DeleteSelectedWbs",
+    "RelativePath": "DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PONumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ItemNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LotNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "DeleteUserData",
+    "RelativePath": "DeleteUserData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetMenu",
+    "RelativePath": "GetMenu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetPODetails",
+    "RelativePath": "GetPODetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PONumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "Getpodetailsreport",
+    "RelativePath": "Getpodetailsreport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetPOHeaders",
+    "RelativePath": "GetPOHeaders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "suppliercode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetPONumber",
+    "RelativePath": "GetPONumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "suppliercode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "Getroles",
+    "RelativePath": "Getroles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetRolesDetails",
+    "RelativePath": "GetRolesDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetSupplier",
+    "RelativePath": "GetSupplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetMaterialInfo",
+    "RelativePath": "GetSupplierInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "Getusermaster",
+    "RelativePath": "Getusermaster",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "UpdateUserData",
+    "RelativePath": "UpdateRoleData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "SupplierService.Models.UpdateRoleData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "UpdateUserData",
+    "RelativePath": "UpdateUserData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "SupplierService.Models.Updateuser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "UpsertLotDetails",
+    "RelativePath": "UpsertLotDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Lotdets",
+        "Type": "System.Collections.Generic.List\u00601[[SupplierService.Models.UpsertLotDetails, SupplierService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
