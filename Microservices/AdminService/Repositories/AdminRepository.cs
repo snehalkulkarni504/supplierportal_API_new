@@ -187,7 +187,8 @@ namespace AdminService.Repositories
                      new SqlParameter("@EmailId", user.EmailId),
                      new SqlParameter("@RoleId", user.RoleId),
                      new SqlParameter("@IsActive", user.IsActive),
-                     new SqlParameter("@CreatedBy", user.CreatedBy)
+                     new SqlParameter("@CreatedBy", user.CreatedBy),
+                     new SqlParameter("@SupplierId",user.SupplierId)
 
                 };
 
@@ -195,7 +196,7 @@ namespace AdminService.Repositories
                 // Convert the parameter list to an array
                 var userdata = await
                     _dbContext.Database
-                        .ExecuteSqlRawAsync("exec AddUserData @UserName, @FullName, @EmailId,@RoleId,@IsActive, @CreatedBy", param.ToArray());
+                        .ExecuteSqlRawAsync("exec AddUserData @UserName, @FullName, @EmailId,@RoleId,@IsActive, @CreatedBy, @SupplierId", param.ToArray());
 
                 return true;
 
@@ -219,12 +220,14 @@ namespace AdminService.Repositories
             new SqlParameter("@FullName", user.FullName),
             new SqlParameter("@EmailId", user.EmailId),
             new SqlParameter("@RoleId", user.RoleId),
-            new SqlParameter("@IsActive", user.IsActive)
+            new SqlParameter("@IsActive", user.IsActive),
+            new SqlParameter("ModifiedBy",user.ModifiedBy),
+            new SqlParameter("@SupplierId",user.SupplierId)
         };
 
                 // Execute the stored procedure
                 var result = await _dbContext.Database.ExecuteSqlRawAsync(
-                    "EXEC UpdateUser @UserId, @UserName, @FullName, @EmailId, @RoleId, @IsActive",
+                    "EXEC UpdateUser @UserId, @UserName, @FullName, @EmailId, @RoleId, @IsActive, @ModifiedBy,",
                     param.ToArray());
 
                 return true; // Return true if rows were affected
@@ -312,6 +315,51 @@ namespace AdminService.Repositories
             }
 
         }
+        public List<GetSupplier> GetSupplier()
+        {
+            _logger.LogInformation("GetSupplier API started at:" + DateTime.Now);
+            try
+            {
+                List<GetSupplier> Supplier = new List<GetSupplier>();
+                Supplier = _dbContext.MST_Supplier
+                    .Where(s => s.IsActive == true)
+                    .Select(s => new GetSupplier
+                    {
+                        SupplierId = s.SupplierId,
+                       SupplierName = s.SupplierCode + " - " + s.SupplierName
+                    }).ToList();
+
+                return Supplier;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("GetSupplier API error :" + ex.Message);
+                throw;
+            }
+
+        }
+        //public async Task<List<GetSupplier>> GetSupplier()
+        //{
+        //    try
+        //    {
+        //        var suppliers = await _dbContext.MST_Supplier
+        //            .Where(s => s.IsActive)
+        //            .Select(s => new GetSupplier
+        //            {
+        //                SupplierId = s.SupplierId,
+        //                SupplierName = s.SupplierCode + " - " + s.SupplierName
+        //            })
+        //            .ToListAsync();
+
+        //        return suppliers;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError($"Error fetching active suppliers: {ex.Message}");
+        //        throw;
+        //    }
+        //}
+
         public async Task<bool> Addsupplier(Addsupplier user)
         {
             _logger.LogInformation("Addsupplier API started at:" + DateTime.Now);
@@ -356,13 +404,13 @@ namespace AdminService.Repositories
             new SqlParameter("@SupplierCode", user.SupplierCode),
             new SqlParameter("@SupplierName", user.SupplierName),
             new SqlParameter("@CountryId", user.CountryId),
-            new SqlParameter("@IsActive", user.IsActive)
-            //new SqlParameter("@ModifiedBy", user.ModifiedBy)
+            new SqlParameter("@IsActive", user.IsActive),
+            new SqlParameter("@ModifiedBy", user.ModifiedBy)
         };
 
                 // Execute the stored procedure
                 var result = await _dbContext.Database.ExecuteSqlRawAsync(
-                    "EXEC UpdateSupplier @SupplierId, @SupplierCode, @SupplierName, @CountryId, @IsActive",
+                    "EXEC UpdateSupplier @SupplierId, @SupplierCode, @SupplierName, @CountryId, @IsActive,@ModifiedBy",
                     param.ToArray());
 
                 return true; // Return true if rows were affected

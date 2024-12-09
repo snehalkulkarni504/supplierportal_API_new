@@ -1,4 +1,6 @@
-﻿namespace AdminService.Models
+﻿using System.Data;
+
+namespace AdminService.Models
 {
     public class Updateuser
     {
@@ -8,5 +10,7 @@
         public string EmailId { get; set; }
         public int RoleId { get; set; }
         public bool IsActive { get; set; }
+        public int? ModifiedBy { get; set; }
+        public int? SupplierId { get; set; }
     }
 }

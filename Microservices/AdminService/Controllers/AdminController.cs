@@ -91,6 +91,41 @@ namespace AdminService.Controllers
                 return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
             }
         }
+        //[Route("/GetSuppliers")]
+        //public async Task<IActionResult> GetSuppliers()
+        //{
+        //    try
+        //    {
+        //        _logger.LogInformation("Getrole Controller started at:" + DateTime.Now);
+        //        List<GetSupplier> SupplierData = await _adminService.GetSupplier();
+        //        return Ok(SupplierData);
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError("Getrole Controller Error :", ex.Message);
+        //        return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+        //    }
+        //}
+
+        [HttpGet]
+        [Route("/GetSuppliers")]
+        public async Task<IActionResult> GetSuppliers()
+        {
+            try
+            {
+                _logger.LogInformation("GetSuppliers Controller started at:" + DateTime.Now);
+                List<GetSupplier> SupplierData = _adminService.GetSupplier();
+                return Ok(SupplierData);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("GetCountryDetails Controller Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+        }
+
         [HttpPost]
         [Route("/Adduser")]
         public async Task<IActionResult> Addusers([FromBody] Adduser user)

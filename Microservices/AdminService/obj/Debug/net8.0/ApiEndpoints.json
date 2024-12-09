@@ -137,6 +137,16 @@
   },
   {
     "ContainingType": "AdminService.Controllers.AdminController",
+    "Method": "GetSuppliers",
+    "RelativePath": "GetSuppliers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminService.Controllers.AdminController",
     "Method": "Getusermaster",
     "RelativePath": "Getusermaster",
     "HttpMethod": "GET",

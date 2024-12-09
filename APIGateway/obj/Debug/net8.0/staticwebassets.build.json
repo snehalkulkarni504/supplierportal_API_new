@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "fEbFdJf3AhpF2BQ0jwh0+vqKonKNbO0MbotGMrMrWzM=",
+  "Hash": "C6gI0fZiGSLdlKHrkutFNywqdaEGZiEgNz3/bMmynMs=",
   "Source": "APIGateway",
   "BasePath": "_content/APIGateway",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

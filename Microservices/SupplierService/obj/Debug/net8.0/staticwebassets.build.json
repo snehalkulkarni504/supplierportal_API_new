@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "ZXuG27LlBLdTZiefX9k0TZcuCqtvZQ9EfAR1Q3U7Sak=",
+  "Hash": "cmTieIHMEdcXEiOL1NwEzJthPIvNRI4wlAliIBDPKIs=",
   "Source": "SupplierService",
   "BasePath": "_content/SupplierService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

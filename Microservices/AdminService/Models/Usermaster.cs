@@ -14,5 +14,7 @@ namespace AdminService.Models
         public string EmailId { get; set; }
         public string CreatedBy { get; set; }
         public DateTime created_date { get; set; }
+        public int? SupplierId { get; set; }
+        public String? SupplierName { get; set; }
     }
 }

@@ -22,6 +22,7 @@ namespace AdminService.Context
 
         public virtual DbSet<Getrole> Getroles { get; set; }
         public virtual DbSet<Adduser> Addusers { get; set; }
+        public virtual DbSet<GetSupplier> MST_Supplier { get; set; }
         public virtual DbSet<GetSupplierDetails> supplierDetails {  get; set; }
         public virtual DbSet<GetCountryDetails> CountryDetails { get; set; }
 
@@ -37,6 +38,17 @@ namespace AdminService.Context
 
             modelBuilder.Entity<Getrole>(entity => entity.HasNoKey());
             modelBuilder.Entity<Adduser>(entity => entity.HasNoKey());
+            modelBuilder.Entity<GetSupplier>(entity =>
+            {
+                entity
+                    .ToTable("Mst_Supplier")
+                    .HasKey(x => x.SupplierId);
+                entity
+                     .Property(e => e.IsActive)
+                     .HasColumnName("IsActive")
+                     .IsRequired();
+            });
+
             modelBuilder.Entity<GetSupplierDetails>(entity => entity.HasNoKey());
 
             modelBuilder.Entity<GetMenu>(entity =>

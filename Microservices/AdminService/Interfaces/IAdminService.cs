@@ -22,7 +22,9 @@ namespace AdminService.Interfaces
         Task<List<GetRolesDetails>> GetRoleInfo();
         Task<bool> AddRoleData(AddRoleData user);
         Task<bool> UpdateRoleData(UpdateRoleData user);
-
+        //Task<List<GetSupplier>> GetSupplier();
+        List<GetSupplier> GetSupplier();
+        //List<GetSupplier> GetSupplier();
 
 
     }
