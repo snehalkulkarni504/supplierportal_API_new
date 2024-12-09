@@ -1048,6 +1048,89 @@ namespace SupplierService.Repositories
             }
         }
 
+        public List<Getdocuploaddetails> Getdocuploaddata()
+        {
+            _logger.LogInformation($"Getdocuploaddata calls at " + DateTime.Now.ToString());
+            List<Getdocuploaddetails> docuploads = new List<Getdocuploaddetails>();
+            try
+            {
+                using (SqlConnection sqlconn = new SqlConnection(connectionString))
+                {
+                    sqlconn.Open();
+                    docuploads = (List<Getdocuploaddetails>)sqlconn.Query<Getdocuploaddetails>(SystemConstants.Getdocdetails, commandType: CommandType.StoredProcedure);
+                }
+                return docuploads;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation("Getdivisionsite API error: " + ex.Message);
+                throw new RepositoryException("Error Fetching Getdivisionsite.", ex);
+
+            }
+        }
+
+        public int uploaddocdetails(docuploaddetails data)
+        {
+            int Output = 0;
+            try
+            {
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+                    var dynamicParameters = new DynamicParameters();
+                    dynamicParameters.Add("@filename", data.filename);
+                    dynamicParameters.Add("@documentno", data.documentno);
+                    dynamicParameters.Add("@documenttype", data.documenttype);
+                    dynamicParameters.Add("@pono", data.pono);
+                    dynamicParameters.Add("@itemno", data.itemno);
+                    dynamicParameters.Add("@lotno", data.lotno);
+                    dynamicParameters.Add("@remarks", data.remarks);
+                    dynamicParameters.Add("@updatedby", data.updatedby);
+
+
+
+                    sqlConnection.QueryFirstOrDefault<int>(SystemConstants.uploaddocdetails, dynamicParameters, commandType: CommandType.StoredProcedure);
+                    Output = 1;
+                    sqlConnection.Close();
+
+                    return Output;
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void docrevision(string filename, string documnetno, string pono, string itemno, int lotno)
+        {
+            try
+            {
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+                    var dynamicParameters = new DynamicParameters();
+
+                    dynamicParameters.Add("@filename", filename);
+                    //dynamicParameters.Add("@documentno", documnetno);
+                    dynamicParameters.Add("@pono", pono);
+                    dynamicParameters.Add("@itemno", itemno);
+                    dynamicParameters.Add("@lotno", lotno);
+
+                    sqlConnection.QueryFirstOrDefault<int>(SystemConstants.docrevision, dynamicParameters, commandType: CommandType.StoredProcedure);
+                    sqlConnection.Close();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
     }
 
 

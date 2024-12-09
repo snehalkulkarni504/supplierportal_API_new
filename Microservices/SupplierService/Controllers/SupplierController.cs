@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using SupplierService.Exceptions;
 using SupplierService.Interfaces;
 using SupplierService.Models;
+using System.IO.Compression;
 using System.Reflection.Metadata.Ecma335;
 
 namespace SupplierService.Controllers
@@ -259,6 +260,71 @@ namespace SupplierService.Controllers
             }
 
         }
+
+
+        [HttpGet]
+        [Route("/Getdocuploaddeatils")]
+        public async Task<IActionResult> Getdocupload()
+        {
+            try
+            {
+                _logger.LogInformation("this api calls at:" + DateTime.Now.ToString());
+                List<Getdocuploaddetails> docupload = _supplierPortal.Getdocuploaddata();
+                var result = docupload;
+                return Ok(result);
+
+            }
+            catch (RepositoryException ex)
+            {
+                _logger.LogInformation("Getdivisionsite API Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation("Getdivisionsite API Error: ", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+
+        }
+
+        [HttpPost]
+        [Route("/DownloadMultipleFiles")]
+        public IActionResult DownloadMultipleFiles([FromBody] List<downloaddata> requests)
+        {
+            string basePath = @"D:\File";
+
+            using (var memoryStream = new MemoryStream())
+            {
+                using (var zipArchive = new ZipArchive(memoryStream, ZipArchiveMode.Create, true))
+                {
+                    foreach (var request in requests)
+                    {
+                        string filePath = Path.Combine(basePath, request.poNumber.ToString(), request.itemNumber.ToString(), request.lotNumber.ToString(), request.fileName);
+
+                        if (System.IO.File.Exists(filePath))
+                        {
+                            // Add the file to the zip
+                            var zipEntry = zipArchive.CreateEntry(request.fileName, CompressionLevel.Fastest);
+                            using (var entryStream = zipEntry.Open())
+                            using (var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
+                            {
+                                fileStream.CopyTo(entryStream);
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine($"File not found: {filePath}");
+                        }
+                    }
+                }
+
+                memoryStream.Seek(0, SeekOrigin.Begin);
+
+                // Return the zip file
+                return File(memoryStream.ToArray(), "application/zip", "Documents.zip");
+            }
+        }
+
         #endregion
 
         #region Post Methods
@@ -442,6 +508,77 @@ namespace SupplierService.Controllers
             }
 
         }
+
+
+
+        [HttpPost]
+        [Route("/UploadDoc")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> UploadFile([FromForm] IFormFile file, [FromForm] string docno, [FromForm] string doctype, [FromForm] string poNumber, [FromForm] string itemNumber, [FromForm] string lotNumber, [FromForm] string remarks, [FromForm] string updatedby)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("No file uploaded.");
+            }
+
+            try
+            {
+
+                string rootPath = Path.Combine("D:\\", "File");
+
+
+                string folderPath = Path.Combine(rootPath, poNumber, itemNumber, lotNumber);
+
+
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
+                }
+
+
+                string filename = file.FileName;
+
+                string filePath = Path.Combine(folderPath, file.FileName);
+
+                int revision = 0;
+
+                if (System.IO.File.Exists(filePath))
+                {
+                    revision = 1;
+                }
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                if (revision == 1)
+                {
+                    _supplierPortal.docrevision(filename, docno, poNumber, itemNumber, Convert.ToInt32(lotNumber));
+                }
+                else
+                {
+                    docuploaddetails data = new docuploaddetails();
+                    data.filename = filename;
+                    data.documentno = docno;
+                    data.documenttype = doctype;
+                    data.pono = poNumber;
+                    data.itemno = itemNumber;
+                    data.lotno = Convert.ToInt32(lotNumber);
+                    data.remarks = remarks;
+                    data.updatedby = updatedby;
+                    _supplierPortal.uploaddocdetails(data);
+                }
+
+                return Ok(new { message = "File uploaded successfully!", filePath });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "An error occurred while uploading the file.", error = ex.Message });
+            }
+        }
+
+
         #endregion
 
         #region Delete Methods

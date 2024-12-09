@@ -83,6 +83,18 @@
         }
       }
     },
+    "/GetSuppliers": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/Adduser": {
       "post": {
         "tags": [
@@ -456,6 +468,10 @@
           "createdBy": {
             "type": "integer",
             "format": "int32"
+          },
+          "supplierId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -528,6 +544,10 @@
           },
           "isActive": {
             "type": "boolean"
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -557,6 +577,16 @@
           },
           "isActive": {
             "type": "boolean"
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "supplierId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false

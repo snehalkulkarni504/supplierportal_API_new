@@ -144,6 +144,58 @@
         }
       }
     },
+    "/Getdocuploaddeatils": {
+      "get": {
+        "tags": [
+          "Supplier"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DownloadMultipleFiles": {
+      "post": {
+        "tags": [
+          "Supplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/downloaddata"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/downloaddata"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/downloaddata"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/UpsertLotDetails": {
       "post": {
         "tags": [
@@ -343,6 +395,116 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/UpdateRoleData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/UploadDoc": {
+      "post": {
+        "tags": [
+          "Supplier"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ContentType": {
+                    "type": "string"
+                  },
+                  "ContentDisposition": {
+                    "type": "string"
+                  },
+                  "Headers": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "Length": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "FileName": {
+                    "type": "string"
+                  },
+                  "docno": {
+                    "type": "string"
+                  },
+                  "doctype": {
+                    "type": "string"
+                  },
+                  "poNumber": {
+                    "type": "string"
+                  },
+                  "itemNumber": {
+                    "type": "string"
+                  },
+                  "lotNumber": {
+                    "type": "string"
+                  },
+                  "remarks": {
+                    "type": "string"
+                  },
+                  "updatedby": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ContentType": {
+                  "style": "form"
+                },
+                "ContentDisposition": {
+                  "style": "form"
+                },
+                "Headers": {
+                  "style": "form"
+                },
+                "Length": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "FileName": {
+                  "style": "form"
+                },
+                "docno": {
+                  "style": "form"
+                },
+                "doctype": {
+                  "style": "form"
+                },
+                "poNumber": {
+                  "style": "form"
+                },
+                "itemNumber": {
+                  "style": "form"
+                },
+                "lotNumber": {
+                  "style": "form"
+                },
+                "remarks": {
+                  "style": "form"
+                },
+                "updatedby": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -562,6 +724,28 @@
           },
           "isNew": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "downloaddata": {
+        "type": "object",
+        "properties": {
+          "poNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "lotNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileName": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -34,6 +34,10 @@
         public static string DeleteRoleMenu = "DeleteRoleMenu";
         public static string GetMenu = "GetMenu";
 
+        public static string Getdocdetails = "Getdocdetails";
+        public static string uploaddocdetails = "uploaddocdetails";
+        public static string docrevision = "docrevision";
+
         public static string GetSupplier = "GetSupplier";
 
     }

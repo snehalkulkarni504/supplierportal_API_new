@@ -75,6 +75,32 @@
   },
   {
     "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "DownloadMultipleFiles",
+    "RelativePath": "DownloadMultipleFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requests",
+        "Type": "System.Collections.Generic.List\u00601[[SupplierService.Models.downloaddata, SupplierService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "Getdocupload",
+    "RelativePath": "Getdocuploaddeatils",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
     "Method": "GetMenu",
     "RelativePath": "GetMenu",
     "HttpMethod": "GET",
@@ -219,6 +245,82 @@
         "Name": "user",
         "Type": "SupplierService.Models.Updateuser",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "UploadFile",
+    "RelativePath": "UploadDoc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "docno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "doctype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "poNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "itemNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lotNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "remarks",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedby",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
