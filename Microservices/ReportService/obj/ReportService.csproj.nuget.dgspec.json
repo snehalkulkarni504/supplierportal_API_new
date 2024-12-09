@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ekm927895\\Downloads\\Final\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj": {}
+    "D:\\supplier_backup\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ekm927895\\Downloads\\Final\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj": {
+    "D:\\supplier_backup\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekm927895\\Downloads\\Final\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj",
+        "projectUniqueName": "D:\\supplier_backup\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj",
         "projectName": "ReportService",
-        "projectPath": "C:\\Users\\ekm927895\\Downloads\\Final\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj",
-        "packagesPath": "C:\\Users\\ekm927895\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekm927895\\Downloads\\Final\\supplierportal_API_new\\Microservices\\ReportService\\obj\\",
+        "projectPath": "D:\\supplier_backup\\supplierportal_API_new\\Microservices\\ReportService\\ReportService.csproj",
+        "packagesPath": "C:\\Users\\byy927810\\.nuget\\packages\\",
+        "outputPath": "D:\\supplier_backup\\supplierportal_API_new\\Microservices\\ReportService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ekm927895\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byy927810\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,15 +43,32 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -74,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
