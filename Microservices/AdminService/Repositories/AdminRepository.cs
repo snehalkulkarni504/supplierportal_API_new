@@ -37,13 +37,13 @@ namespace AdminService.Repositories
 
                     _MSTMenu = (from a in _dbContext.MST_Menu
                                 join b in _dbContext.RELRoleMenu on a.MenuId equals b.MenuId
-                                where a.Status == true && a.MenuCategory == "M1" && b.RoleId == id
+                                where a.Status == true && a.MenuCategory == "M1" && b.RoleId == id && b.IsActive==true
 
                                 select new MSTMenu_Useraccess
                                 {
                                     value = a.MenuId,
                                     Menu = a.Menu,
-                                    label = a.SubMenu,
+                                    label = a.SubMenu ,
                                     routeLink = a.Navigate_Url,
                                     icon  = a.Icon
 
@@ -116,7 +116,8 @@ namespace AdminService.Repositories
                         Username = x.Username,
                         mst_user_id = x.mst_user_id,
                         RoleId = x.RoleId,
-                        Password = x.Password
+                        Password = x.Password,
+                        SupplierId=x.SupplierId
                     }).ToListAsync();
 
             }
