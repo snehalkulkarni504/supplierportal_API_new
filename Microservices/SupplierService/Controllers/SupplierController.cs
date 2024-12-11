@@ -263,7 +263,7 @@ namespace SupplierService.Controllers
 
 
         [HttpGet]
-        [Route("/Getdocuploaddeatils")]
+        [Route("/Getdocuploaddeatils/{pono}/{itemno}/{lotno}")]
         public async Task<IActionResult> Getdocupload(string pono,string itemno,int lotno)
         {
             try
