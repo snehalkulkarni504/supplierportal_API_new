@@ -64,7 +64,7 @@ namespace ReportService.Repositories
 
                                 Getpodetails po_deatils = new Getpodetails
                                 {
-                                    suppliercode = row["suppliercode"] != DBNull.Value ? (int?)Convert.ToInt32(row["suppliercode"]) : null,
+                                    suppliercode = row["suppliercode"] != DBNull.Value ? row["suppliercode"].ToString() : null,
                                     suppliername = row["suppliername"] != DBNull.Value ? row["suppliername"].ToString() : null,
                                     pono = row["pono"] != DBNull.Value ? (int?)Convert.ToInt32(row["pono"]) : null,
                                     itemno = row["itemno"] != DBNull.Value ? (int?)Convert.ToInt32(row["itemno"]) : null,

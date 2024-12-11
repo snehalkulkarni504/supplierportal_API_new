@@ -2,7 +2,7 @@
 {
     public class Getpodetails
     {
-        public int? suppliercode { get; set; }
+        public string? suppliercode { get; set; }
         public string? suppliername { get; set; }
         public int? pono { get; set; }
         public int? itemno { get; set; }

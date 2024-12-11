@@ -92,7 +92,7 @@
   {
     "ContainingType": "SupplierService.Controllers.SupplierController",
     "Method": "Getdocupload",
-    "RelativePath": "Getdocuploaddeatils",
+    "RelativePath": "Getdocuploaddeatils/{pono}/{itemno}/{lotno}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -100,17 +100,17 @@
       {
         "Name": "pono",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "itemno",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "lotno",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

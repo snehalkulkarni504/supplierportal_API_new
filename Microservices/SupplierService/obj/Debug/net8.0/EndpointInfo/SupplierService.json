@@ -144,7 +144,7 @@
         }
       }
     },
-    "/Getdocuploaddeatils": {
+    "/Getdocuploaddeatils/{pono}/{itemno}/{lotno}": {
       "get": {
         "tags": [
           "Supplier"
@@ -152,24 +152,27 @@
         "parameters": [
           {
             "name": "pono",
-            "in": "query",
-            "style": "form",
+            "in": "path",
+            "required": true,
+            "style": "simple",
             "schema": {
               "type": "string"
             }
           },
           {
             "name": "itemno",
-            "in": "query",
-            "style": "form",
+            "in": "path",
+            "required": true,
+            "style": "simple",
             "schema": {
               "type": "string"
             }
           },
           {
             "name": "lotno",
-            "in": "query",
-            "style": "form",
+            "in": "path",
+            "required": true,
+            "style": "simple",
             "schema": {
               "type": "integer",
               "format": "int32"
