@@ -228,7 +228,7 @@ namespace AdminService.Repositories
 
                 // Execute the stored procedure
                 var result = await _dbContext.Database.ExecuteSqlRawAsync(
-                    "EXEC UpdateUser @UserId, @UserName, @FullName, @EmailId, @RoleId, @IsActive, @ModifiedBy,",
+                    "EXEC UpdateUser @UserId, @UserName, @FullName, @EmailId, @RoleId, @IsActive, @ModifiedBy,@SupplierId",
                     param.ToArray());
 
                 return true; // Return true if rows were affected
