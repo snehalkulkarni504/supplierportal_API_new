@@ -264,12 +264,12 @@ namespace SupplierService.Controllers
 
         [HttpGet]
         [Route("/Getdocuploaddeatils")]
-        public async Task<IActionResult> Getdocupload()
+        public async Task<IActionResult> Getdocupload(string pono,string itemno,int lotno)
         {
             try
             {
                 _logger.LogInformation("this api calls at:" + DateTime.Now.ToString());
-                List<Getdocuploaddetails> docupload = _supplierPortal.Getdocuploaddata();
+                List<Getdocuploaddetails> docupload = _supplierPortal.Getdocuploaddata(pono,itemno,lotno);
                 var result = docupload;
                 return Ok(result);
 

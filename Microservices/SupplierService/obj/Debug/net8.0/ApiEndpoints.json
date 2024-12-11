@@ -96,7 +96,23 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pono",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "itemno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lotno",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

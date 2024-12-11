@@ -1048,7 +1048,7 @@ namespace SupplierService.Repositories
             }
         }
 
-        public List<Getdocuploaddetails> Getdocuploaddata()
+        public List<Getdocuploaddetails> Getdocuploaddata(string pono,string itemno,int lotno)
         {
             _logger.LogInformation($"Getdocuploaddata calls at " + DateTime.Now.ToString());
             List<Getdocuploaddetails> docuploads = new List<Getdocuploaddetails>();
@@ -1057,7 +1057,12 @@ namespace SupplierService.Repositories
                 using (SqlConnection sqlconn = new SqlConnection(connectionString))
                 {
                     sqlconn.Open();
-                    docuploads = (List<Getdocuploaddetails>)sqlconn.Query<Getdocuploaddetails>(SystemConstants.Getdocdetails, commandType: CommandType.StoredProcedure);
+                    var dynamicparameter = new DynamicParameters();
+                    dynamicparameter.Add("pono", pono);
+                    dynamicparameter.Add("itemno", itemno);
+                    dynamicparameter.Add("lotno", lotno);
+
+                    docuploads = (List<Getdocuploaddetails>)sqlconn.Query<Getdocuploaddetails>(SystemConstants.Getdocdetails, dynamicparameter, commandType: CommandType.StoredProcedure);
                 }
                 return docuploads;
             }

@@ -37,7 +37,7 @@ namespace SupplierService.Interfaces
 
         List<SupplierDetails> GetSupplierDetails();
 
-        public List<Getdocuploaddetails> Getdocuploaddata();
+        public List<Getdocuploaddetails> Getdocuploaddata(string pono, string itemno, int lotno);
         public void docrevision(string filename, string documnetno, string pono, string itemno, int lotno);
         public int uploaddocdetails(docuploaddetails data);
 
