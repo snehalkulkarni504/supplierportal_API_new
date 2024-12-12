@@ -509,8 +509,8 @@ namespace SupplierService.Repositories
                             dynamicParameters.Add("@LotQty", POLots.lotqty);
                             dynamicParameters.Add("@ETD", POLots.etd);
                             dynamicParameters.Add("@ETA", POLots.eta);
-                            dynamicParameters.Add("@ActualDispatch", POLots.actualdispatch);
-                            dynamicParameters.Add("@ActualArrival", POLots.actualarrival);
+                            dynamicParameters.Add("@ActualDispatch", POLots.actualdispatch??null);
+                            dynamicParameters.Add("@ActualArrival", POLots.actualarrival?? null);
                             sqlConnection.Query<int>(SystemConstants.UpsertPOLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);
 
                             isSuccess = true;
