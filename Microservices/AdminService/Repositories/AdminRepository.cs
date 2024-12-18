@@ -188,10 +188,19 @@ namespace AdminService.Repositories
                      new SqlParameter("@EmailId", user.EmailId),
                      new SqlParameter("@RoleId", user.RoleId),
                      new SqlParameter("@IsActive", user.IsActive),
-                     new SqlParameter("@CreatedBy", user.CreatedBy),
-                     new SqlParameter("@SupplierId",user.SupplierId)
+                     new SqlParameter("@CreatedBy", user.CreatedBy)
+                     //new SqlParameter("@SupplierId",user.SupplierId)
 
                 };
+                if (user.SupplierId.HasValue)
+                {
+                    param.Add(new SqlParameter("@SupplierId", user.SupplierId.Value));
+                }
+                else
+                {
+                    // Optionally, add a default NULL value if SupplierId is not provided
+                    param.Add(new SqlParameter("@SupplierId", DBNull.Value));
+                }
 
 
                 // Convert the parameter list to an array
@@ -222,9 +231,18 @@ namespace AdminService.Repositories
             new SqlParameter("@EmailId", user.EmailId),
             new SqlParameter("@RoleId", user.RoleId),
             new SqlParameter("@IsActive", user.IsActive),
-            new SqlParameter("ModifiedBy",user.ModifiedBy),
-            new SqlParameter("@SupplierId",user.SupplierId)
+            new SqlParameter("ModifiedBy",user.ModifiedBy)
+            //new SqlParameter("@SupplierId",user.SupplierId)
         };
+                if (user.SupplierId.HasValue)
+                {
+                    param.Add(new SqlParameter("@SupplierId", user.SupplierId.Value));
+                }
+                else
+                {
+                    // Optionally, add a default NULL value if SupplierId is not provided
+                    param.Add(new SqlParameter("@SupplierId", DBNull.Value));
+                }
 
                 // Execute the stored procedure
                 var result = await _dbContext.Database.ExecuteSqlRawAsync(

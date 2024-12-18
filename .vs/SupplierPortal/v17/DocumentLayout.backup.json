@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\Supplier Portal\\supplierportal_API_new\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\adminservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\adminservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\models\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\models\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\models\\addsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\models\\addsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9453D74-01CC-41BB-8C62-C78FE284A5A3}|Microservices\\ReportService\\ReportService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\reportservice\\repositories\\reportrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9453D74-01CC-41BB-8C62-C78FE284A5A3}|Microservices\\ReportService\\ReportService.csproj|solutionrelative:microservices\\reportservice\\repositories\\reportrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{C9453D74-01CC-41BB-8C62-C78FE284A5A3}|Microservices\\ReportService\\ReportService.csproj|solutionrelative:microservices\\reportservice\\models\\getpodetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\supplierservice\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|solutionrelative:microservices\\supplierservice\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\supplierservice\\interfaces\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|solutionrelative:microservices\\supplierservice\\interfaces\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\supplierservice\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|solutionrelative:microservices\\supplierservice\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\supplierservice\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|solutionrelative:microservices\\supplierservice\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\supplierservice\\models\\docuploaddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,24 +59,12 @@
       "RelativeMoniker": "D:0:0:{765EF471-AC55-4767-BBF9-BDAE509E2482}|Microservices\\SupplierService\\SupplierService.csproj|solutionrelative:microservices\\supplierservice\\models\\getdocuploaddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\models\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\models\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\models\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|solutionrelative:microservices\\adminservice\\models\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{259DC3EF-1C37-412C-8484-150087C3B327}|Microservices\\AdminService\\AdminService.csproj|d:\\supplier portal\\supplierportal_api_new\\microservices\\adminservice\\context\\adminservicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,57 +122,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AdminService.http",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\AdminService.http",
+              "RelativeDocumentMoniker": "Microservices\\AdminService\\AdminService.http",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\AdminService.http",
+              "RelativeToolTip": "Microservices\\AdminService\\AdminService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-18T05:15:01.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Addsupplier.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Addsupplier.cs",
+              "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\Addsupplier.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Addsupplier.cs",
+              "RelativeToolTip": "Microservices\\AdminService\\Models\\Addsupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:13:47.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReportRepositories.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\ReportService\\Repositories\\ReportRepositories.cs",
               "RelativeDocumentMoniker": "Microservices\\ReportService\\Repositories\\ReportRepositories.cs",
               "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\ReportService\\Repositories\\ReportRepositories.cs",
               "RelativeToolTip": "Microservices\\ReportService\\Repositories\\ReportRepositories.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAEIAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:24:03.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T10:24:03.353Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Getpodetails.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\ReportService\\Models\\Getpodetails.cs",
-              "RelativeDocumentMoniker": "Microservices\\ReportService\\Models\\Getpodetails.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\ReportService\\Models\\Getpodetails.cs",
-              "RelativeToolTip": "Microservices\\ReportService\\Models\\Getpodetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Microservices\\AdminService\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Microservices\\AdminService\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:23:52.604Z",
+              "WhenOpened": "2024-12-06T06:47:43.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Microservices\\AdminService\\Repositories\\AdminRepository.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "Microservices\\AdminService\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAjwL4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:17:53.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SystemConstants.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Constants\\SystemConstants.cs",
-              "RelativeDocumentMoniker": "Microservices\\SupplierService\\Constants\\SystemConstants.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Constants\\SystemConstants.cs",
-              "RelativeToolTip": "Microservices\\SupplierService\\Constants\\SystemConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA5AAAAAAAAAA==",
+              "Title": "Getpodetails.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\ReportService\\Models\\Getpodetails.cs",
+              "RelativeDocumentMoniker": "Microservices\\ReportService\\Models\\Getpodetails.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\ReportService\\Models\\Getpodetails.cs",
+              "RelativeToolTip": "Microservices\\ReportService\\Models\\Getpodetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:05:44.463Z"
+              "WhenOpened": "2024-12-11T10:23:52.604Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SupplierRepository.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
-              "RelativeDocumentMoniker": "Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
-              "RelativeToolTip": "Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
-              "ViewState": "AgIAABQEAAAAAAAAAAAtwBoEAAAIAAAAAAAAAA==",
+              "Title": "Adduser.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Adduser.cs",
+              "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\Adduser.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Adduser.cs",
+              "RelativeToolTip": "Microservices\\AdminService\\Models\\Adduser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:04:57.492Z"
+              "WhenOpened": "2024-12-06T09:18:18.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Microservices\\SupplierService\\Controllers\\SupplierController.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Microservices\\SupplierService\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAD4vwsBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:03:15.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "downloaddata.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Models\\downloaddata.cs",
               "RelativeDocumentMoniker": "Microservices\\SupplierService\\Models\\downloaddata.cs",
@@ -176,19 +235,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SupplierController.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Controllers\\SupplierController.cs",
-              "RelativeDocumentMoniker": "Microservices\\SupplierService\\Controllers\\SupplierController.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Controllers\\SupplierController.cs",
-              "RelativeToolTip": "Microservices\\SupplierService\\Controllers\\SupplierController.cs",
-              "ViewState": "AgIAAP4AAAAAAAAAAAAUwA8BAABNAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
+              "RelativeToolTip": "Microservices\\SupplierService\\Repositories\\SupplierRepository.cs",
+              "ViewState": "AgIAABQEAAAAAAAAAAAtwBoEAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:03:15.84Z"
+              "WhenOpened": "2024-12-09T10:04:57.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "SystemConstants.cs",
+              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Constants\\SystemConstants.cs",
+              "RelativeDocumentMoniker": "Microservices\\SupplierService\\Constants\\SystemConstants.cs",
+              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Constants\\SystemConstants.cs",
+              "RelativeToolTip": "Microservices\\SupplierService\\Constants\\SystemConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T10:05:44.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ISupplierService.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Interfaces\\ISupplierService.cs",
               "RelativeDocumentMoniker": "Microservices\\SupplierService\\Interfaces\\ISupplierService.cs",
@@ -196,12 +267,11 @@
               "RelativeToolTip": "Microservices\\SupplierService\\Interfaces\\ISupplierService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvycAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:06:50.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T10:06:50.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "docuploaddetails.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Models\\docuploaddetails.cs",
               "RelativeDocumentMoniker": "Microservices\\SupplierService\\Models\\docuploaddetails.cs",
@@ -213,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Getdocuploaddetails.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\Models\\Getdocuploaddetails.cs",
               "RelativeDocumentMoniker": "Microservices\\SupplierService\\Models\\Getdocuploaddetails.cs",
@@ -225,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "GetSupplier.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\GetSupplier.cs",
               "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\GetSupplier.cs",
@@ -237,19 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Microservices\\AdminService\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Microservices\\AdminService\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAC8BAAAAAAAAAAAYwD4BAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T06:47:43.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AdminServiceContext.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Context\\AdminServiceContext.cs",
               "RelativeDocumentMoniker": "Microservices\\AdminService\\Context\\AdminServiceContext.cs",
@@ -261,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Interfaces\\IAdminService.cs",
               "RelativeDocumentMoniker": "Microservices\\AdminService\\Interfaces\\IAdminService.cs",
@@ -273,19 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Adduser.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Adduser.cs",
-              "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\Adduser.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Adduser.cs",
-              "RelativeToolTip": "Microservices\\AdminService\\Models\\Adduser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T09:18:18.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Usermaster.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Usermaster.cs",
               "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\Usermaster.cs",
@@ -297,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Updateuser.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\Updateuser.cs",
               "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\Updateuser.cs",
@@ -309,19 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Repositories\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "Microservices\\AdminService\\Repositories\\AdminRepository.cs",
-              "ToolTip": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Repositories\\AdminRepository.cs",
-              "RelativeToolTip": "Microservices\\AdminService\\Repositories\\AdminRepository.cs",
-              "ViewState": "AgIAAP0BAAAAAAAAAAAYwAoCAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T06:17:53.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "UpdateSupplier.cs",
               "DocumentMoniker": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\Models\\UpdateSupplier.cs",
               "RelativeDocumentMoniker": "Microservices\\AdminService\\Models\\UpdateSupplier.cs",

@@ -6,6 +6,7 @@
         public string? suppliername { get; set; }
         public int? pono { get; set; }
         public int? itemno { get; set; }
+        public int? lotno { get; set; }
         public string? materialcode { get; set; }
         public string? materialdes { get; set; }
         public int? materialqty { get; set; }

@@ -68,6 +68,7 @@ namespace ReportService.Repositories
                                     suppliername = row["suppliername"] != DBNull.Value ? row["suppliername"].ToString() : null,
                                     pono = row["pono"] != DBNull.Value ? (int?)Convert.ToInt32(row["pono"]) : null,
                                     itemno = row["itemno"] != DBNull.Value ? (int?)Convert.ToInt32(row["itemno"]) : null,
+                                    lotno = row["lotno"] != DBNull.Value ? (int?)Convert.ToInt32(row["lotno"]) : null,
                                     materialcode = row["materialcode"] != DBNull.Value ? row["materialcode"].ToString() : null,
                                     materialdes = row["materialdes"] != DBNull.Value ? row["materialdes"].ToString() : null,
                                     materialqty = row["materialqty"] != DBNull.Value ? (int?)Convert.ToInt32(row["materialqty"]) : null,

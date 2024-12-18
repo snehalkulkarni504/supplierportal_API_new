@@ -8,6 +8,6 @@
         public int RoleId { get; set; }
         public bool IsActive { get; set; }
         public int CreatedBy { get; set; }
-        public int SupplierId { get; set; }
+        public int? SupplierId { get; set; }
     }
 }
