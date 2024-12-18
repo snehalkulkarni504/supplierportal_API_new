@@ -464,8 +464,12 @@ namespace SupplierService.Repositories
                                     lotqty = datarowLots["LotQty"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["LotQty"]),
                                     etd = datarowLots["ETD"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ETD"]).ToString("yyyy-MM-dd"),
                                     eta = datarowLots["ETA"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ETA"]).ToString("yyyy-MM-dd"),
-                                    actualdispatch = datarowLots["ActualDispatch"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
-                                    actualarrival = datarowLots["ActualArrival"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
+                                    actualdispatch = string.IsNullOrEmpty(datarowLots["ActualDispatch"].ToString()) || datarowLots["ActualDispatch"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
+
+                                    actualarrival = string.IsNullOrEmpty(datarowLots["ActualArrival"].ToString()) || datarowLots["ActualArrival"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
+
+                                    //actualdispatch = datarowLots["ActualDispatch"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
+                                    //actualarrival = datarowLots["ActualArrival"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
                                 };
                                 POLotdets.Add(POitemLots);
                             }
@@ -494,26 +498,34 @@ namespace SupplierService.Repositories
             bool isSuccess = false;
             try
             {
-                
+
                 using (var sqlConnection = new SqlConnection(connectionString))
                 {
                     sqlConnection.Open();
                     foreach (UpsertLotDetails POLots in POLotList)
                     {
-                       
-                            var dynamicParameters = new DynamicParameters();
-                            dynamicParameters.Add("@PONumber", POLots.PONumber);
-                            dynamicParameters.Add("@ItemNo", POLots.itemno);
-                            dynamicParameters.Add("@UserId", POLots.UserId);
-                            dynamicParameters.Add("@LotNumber", POLots.lotnumber);
-                            dynamicParameters.Add("@LotQty", POLots.lotqty);
-                            dynamicParameters.Add("@ETD", POLots.etd);
-                            dynamicParameters.Add("@ETA", POLots.eta);
-                            dynamicParameters.Add("@ActualDispatch", POLots.actualdispatch??null);
-                            dynamicParameters.Add("@ActualArrival", POLots.actualarrival?? null);
-                            sqlConnection.Query<int>(SystemConstants.UpsertPOLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);
 
-                            isSuccess = true;
+                        if (POLots.actualdispatch == "")
+                        {
+                            POLots.actualdispatch = null;
+                        }
+                        if (POLots.actualarrival == "")
+                        {
+                            POLots.actualarrival = null;
+                        }
+                        var dynamicParameters = new DynamicParameters();
+                        dynamicParameters.Add("@PONumber", POLots.PONumber);
+                        dynamicParameters.Add("@ItemNo", POLots.itemno);
+                        dynamicParameters.Add("@UserId", POLots.UserId);
+                        dynamicParameters.Add("@LotNumber", POLots.lotnumber);
+                        dynamicParameters.Add("@LotQty", POLots.lotqty);
+                        dynamicParameters.Add("@ETD", POLots.etd);
+                        dynamicParameters.Add("@ETA", POLots.eta);
+                        dynamicParameters.Add("@ActualDispatch", POLots.actualdispatch);
+                        dynamicParameters.Add("@ActualArrival", POLots.actualarrival);
+                        sqlConnection.Query<int>(SystemConstants.UpsertPOLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);
+
+                        isSuccess = true;
                     }
                     sqlConnection.Close();
                 }
@@ -522,7 +534,7 @@ namespace SupplierService.Repositories
             {
                 throw ex;
             }
-            
+
             return isSuccess;
         }
         public List<Usermastercs> Getusermaster()
@@ -564,40 +576,40 @@ namespace SupplierService.Repositories
                     }
                     return usermasters;
 
-        #region Delete Methods
-        //public async Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber)
-        //{
-        //    try
-        //    {
-        //        int Output=0;
-        //        string ErrorMessage = null;
-        //        int result = -4;
+                    #region Delete Methods
+                    //public async Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber)
+                    //{
+                    //    try
+                    //    {
+                    //        int Output=0;
+                    //        string ErrorMessage = null;
+                    //        int result = -4;
 
-        //        using (var sqlConnection = new SqlConnection(connectionString))
-        //        {
-        //            sqlConnection.Open();
-        //            var dynamicParameters = new DynamicParameters();
-        //            dynamicParameters.Add("@paPONumber", PONumber);
-        //            dynamicParameters.Add("@paItemNo", ItemNo);
-        //            dynamicParameters.Add("@paLotNumber", LotNumber);
-        //            dynamicParameters.Add("@Output", null, dbType: DbType.Int32, ParameterDirection.Output);
-        //            dynamicParameters.Add("@ErrorMessage", null, dbType: DbType.String, size: 4000, direction: ParameterDirection.Output);
-        //            sqlConnection.Query<int>(SystemConstants.SP_DeleteLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);
-        //            Output = dynamicParameters.Get<int>("@Output");
-        //            ErrorMessage = dynamicParameters.Get<string>("@ErrorMessage");
-        //            sqlConnection.Close();
-        //            result = Output;
-        //        }
+                    //        using (var sqlConnection = new SqlConnection(connectionString))
+                    //        {
+                    //            sqlConnection.Open();
+                    //            var dynamicParameters = new DynamicParameters();
+                    //            dynamicParameters.Add("@paPONumber", PONumber);
+                    //            dynamicParameters.Add("@paItemNo", ItemNo);
+                    //            dynamicParameters.Add("@paLotNumber", LotNumber);
+                    //            dynamicParameters.Add("@Output", null, dbType: DbType.Int32, ParameterDirection.Output);
+                    //            dynamicParameters.Add("@ErrorMessage", null, dbType: DbType.String, size: 4000, direction: ParameterDirection.Output);
+                    //            sqlConnection.Query<int>(SystemConstants.SP_DeleteLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);
+                    //            Output = dynamicParameters.Get<int>("@Output");
+                    //            ErrorMessage = dynamicParameters.Get<string>("@ErrorMessage");
+                    //            sqlConnection.Close();
+                    //            result = Output;
+                    //        }
 
-        //        return result;
+                    //        return result;
 
-        //    }
-        //    catch (RepositoryException ex)
-        //    {
-        //        throw new RepositoryException("Error occurred while Deleteing Lot Detail.", ex);
-        //    }
-        //}
-        #endregion
+                    //    }
+                    //    catch (RepositoryException ex)
+                    //    {
+                    //        throw new RepositoryException("Error occurred while Deleteing Lot Detail.", ex);
+                    //    }
+                    //}
+                    #endregion
 
 
                 }
@@ -835,7 +847,7 @@ namespace SupplierService.Repositories
 
 
         }
-       
+
 
         public List<SupplierDetails> GetSupplierDetails()
         {
@@ -869,14 +881,14 @@ namespace SupplierService.Repositories
                         }
                     }
                 }
-             }
-                catch (Exception ex)
-                {
-                _logger.LogError("GetSupplierDetails API error: " + ex.Message);
-                    throw new RepositoryException("Error fetching GetSupplierDetails.", ex);
-                }
-                return Supplierslist;
             }
+            catch (Exception ex)
+            {
+                _logger.LogError("GetSupplierDetails API error: " + ex.Message);
+                throw new RepositoryException("Error fetching GetSupplierDetails.", ex);
+            }
+            return Supplierslist;
+        }
 
 
 
@@ -1048,7 +1060,7 @@ namespace SupplierService.Repositories
             }
         }
 
-        public List<Getdocuploaddetails> Getdocuploaddata(string pono,string itemno,int lotno)
+        public List<Getdocuploaddetails> Getdocuploaddata(string pono, string itemno, int lotno)
         {
             _logger.LogInformation($"Getdocuploaddata calls at " + DateTime.Now.ToString());
             List<Getdocuploaddetails> docuploads = new List<Getdocuploaddetails>();
