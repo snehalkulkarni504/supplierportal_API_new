@@ -583,12 +583,12 @@ namespace SupplierService.Controllers
 
         #region Delete Methods
         [HttpDelete]
-        [Route("/DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}")]
-        public async Task<IActionResult> DeleteSelectedWbs(int PONumber, int ItemNo, int LotNumber)
+        [Route("/DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}/{Reason}/{qty}/{userID}")]
+        public async Task<IActionResult> DeleteSelectedWbs(int PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID)
         {
             try
             {
-                var IsDeleted = await _supplierPortal.DeleteLotNumber(PONumber, ItemNo, LotNumber);
+                var IsDeleted = await _supplierPortal.DeleteLotNumber(PONumber, ItemNo, LotNumber, Reason, qty, userID);
                 return Ok(IsDeleted);
             }
             catch (RepositoryException ex)

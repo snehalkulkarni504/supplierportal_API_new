@@ -1027,7 +1027,7 @@ namespace SupplierService.Repositories
 
         //}
 
-        public async Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber)
+        public async Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID)
         {
             try
             {
@@ -1042,6 +1042,9 @@ namespace SupplierService.Repositories
                     dynamicParameters.Add("@paPONumber", PONumber);
                     dynamicParameters.Add("@paItemNo", ItemNo);
                     dynamicParameters.Add("@paLotNumber", LotNumber);
+                    dynamicParameters.Add("@paQty", qty);
+                    dynamicParameters.Add("@paRemark", Reason);
+                    dynamicParameters.Add("@paUserID", userID);
                     dynamicParameters.Add("@Output", null, dbType: DbType.Int32, ParameterDirection.Output);
                     dynamicParameters.Add("@ErrorMessage", null, dbType: DbType.String, size: 4000, direction: ParameterDirection.Output);
                     sqlConnection.Query<int>(SystemConstants.SP_DeleteLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);

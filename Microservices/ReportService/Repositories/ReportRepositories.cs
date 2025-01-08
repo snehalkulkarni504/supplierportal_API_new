@@ -99,7 +99,10 @@ namespace ReportService.Repositories
         }
 
 
-       
+        public async Task<List<TRN_Deletion_Details>> GetLotDeletionDetails()
+        {
+            return await _dbContext.TRN_Deletion_Details.ToListAsync();
+        }
 
 
 

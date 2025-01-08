@@ -45,16 +45,38 @@ namespace ReportService.Controllers
             }
         }
 
-
-        
-            #endregion
-
-
-            #region Postmethod
-
-
-            #endregion
-
-
+        [HttpGet]
+        [Route("/GetLotDeletionDetails")]
+        public async Task<IActionResult> GetLotDeletionDetails()
+        {
+            try
+            {
+                _logger.LogInformation("GetLotDeletionDetails API started at: " + DateTime.Now);
+                List<TRN_Deletion_Details> podetails = await _reportportal.GetLotDeletionDetails();
+                var result = podetails;
+                return Ok(result);
+            }
+            catch (RepositoryException ex)
+            {
+                _logger.LogInformation("GetLotDeletionDetails API Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation("GetLotDeletionDetails API Error: ", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
         }
+
+
+        #endregion
+
+
+        #region Postmethod
+
+
+        #endregion
+
+
     }
+}

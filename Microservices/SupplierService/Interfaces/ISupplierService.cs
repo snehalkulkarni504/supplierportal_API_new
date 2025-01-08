@@ -20,7 +20,7 @@ namespace SupplierService.Interfaces
 
         Task<bool> UpsertLotDetails(List<UpsertLotDetails> POList);
 
-        Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber);
+        Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID);
 
         List<Usermastercs> Getusermaster();
 
