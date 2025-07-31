@@ -4,6 +4,7 @@ using AdminService.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using OtpNet;
 
 namespace AdminService.Repositories
 {
@@ -84,7 +85,7 @@ namespace AdminService.Repositories
                 List<MSTMenu_Useraccess> _MSTMenus = new List<MSTMenu_Useraccess>();
                 _MSTMenus = (from a in _dbContext.MST_Menu
                              join b in _dbContext.RELRoleMenu on a.MenuId equals b.MenuId
-                             where a.Status == true && a.MenuCategory == "M2" && b.RoleId == rollId && a.Menu == MenuName
+                             where a.Status == true && a.MenuCategory == "M2" && b.RoleId == rollId && a.Menu == MenuName && a.MenuId!=8 && a.MenuId!=11
                              select new MSTMenu_Useraccess
                              {
                                  value = a.MenuId,
@@ -117,7 +118,9 @@ namespace AdminService.Repositories
                         mst_user_id = x.mst_user_id,
                         RoleId = x.RoleId,
                         Password = x.Password,
-                        SupplierId=x.SupplierId
+                        SupplierId = x.SupplierId,
+                        UserType = x.UserType,
+                        AuthSecretCode = x.AuthSecretCode != null ? "1" : "0"
                     }).ToListAsync();
 
             }
@@ -130,6 +133,34 @@ namespace AdminService.Repositories
             return user;
         }
 
+
+        public bool verify2fa(int userid, string otp)
+        {
+            try
+            {
+                _logger.LogInformation("Verify2fa API called at:-" + DateTime.Now);
+
+                var secretcode = _dbContext.MST_Users
+                    .Where(x => x.mst_user_id == userid && x.IsActive == true)
+                    .Select(x => x.AuthSecretCode)
+                    .FirstOrDefault();
+
+                if (string.IsNullOrEmpty(secretcode))
+                    return false;
+
+                var secretKey = Base32Encoding.ToBytes(secretcode);
+
+                var totp = new Totp(secretKey);
+                bool isValid = totp.VerifyTotp(otp, out long _, VerificationWindow.RfcSpecifiedNetworkDelay);
+
+                return isValid;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error in Veryfy2fa API: " + ex.Message);
+                throw;
+            }
+        }
         public async Task<List<Usermaster>> Getusermaster()
         {
             _logger.LogInformation("getComparisonData API started at:" + DateTime.Now);
@@ -497,14 +528,14 @@ namespace AdminService.Repositories
                 // Iterate through MenuIds and call the stored procedure for each
 
 
-                string menu = user.MenuId.Substring(0, user.MenuId.Length - 1);
+              //  string menu = user.MenuId.Substring(0, user.MenuId.Length - 1);
 
                 var param = new List<SqlParameter>();
                 param.Add(new SqlParameter("@RoleName", user.Role_name));
                 param.Add(new SqlParameter("@Description", user.Description));
                 param.Add(new SqlParameter("@IsActive", user.IsActive));
                 param.Add(new SqlParameter("@CreatedBy", user.CreatedBy));
-                param.Add(new SqlParameter("@MenuId", menu));
+                param.Add(new SqlParameter("@MenuId", user.MenuId));
 
                 // Execute the stored procedure
                 var result = await _dbContext.Database.ExecuteSqlRawAsync(

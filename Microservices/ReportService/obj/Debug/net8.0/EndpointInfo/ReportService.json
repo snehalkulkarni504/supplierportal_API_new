@@ -16,6 +16,18 @@
           }
         }
       }
+    },
+    "/GetLotDeletionDetails": {
+      "get": {
+        "tags": [
+          "Report"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": { }

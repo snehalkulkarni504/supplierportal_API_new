@@ -168,3 +168,423 @@ D:\Supplier Portal\supplierportal_API_new\Microservices\ReportService\obj\Debug\
 D:\Supplier Portal\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
 D:\Supplier Portal\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
 D:\Supplier Portal\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Core.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Identity.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Dapper.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.ClientModel.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+D:\Github Projects\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.staticwebassets.endpoints.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Core.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Identity.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Dapper.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.ClientModel.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.staticwebassets.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Dapper.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.staticwebassets.endpoints.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Dapper.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\appsettings.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.staticwebassets.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.exe
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.deps.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.runtimeconfig.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ReportService.pdb
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Dapper.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.AssemblyReference.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfoInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.AssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.csproj.CoreCompileInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.sourcelink.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\scopedcss\bundle\ReportService.styles.css
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.ReportService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.build.ReportService.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReportService.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReportService.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportSe.B238185B.Up2Date
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\refint\ReportService.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.pdb
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ReportService.genruntimeconfig.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\Microservices\ReportService\obj\Debug\net8.0\ref\ReportService.dll

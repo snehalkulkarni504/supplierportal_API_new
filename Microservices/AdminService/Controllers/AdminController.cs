@@ -2,6 +2,7 @@
 using AdminService.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OtpNet;
 
 namespace AdminService.Controllers
 {
@@ -54,6 +55,40 @@ namespace AdminService.Controllers
             }
 
         }
+
+
+        [HttpGet]
+        [Route("/Generate2FASecretcode")]
+        public IActionResult Generate2FASecretcode(string email)
+        {
+            var secretKey = KeyGeneration.GenerateRandomKey(20);
+            var base32Secret = Base32Encoding.ToString(secretKey);
+
+            var totp = new Totp(secretKey);
+            var otpAuthUrl = $"otpauth://totp/Tata Power:{email}?secret={base32Secret}&issuer=Tata Power&digits=6";
+            var qrCodeImageUrl = $"https://api.qrserver.com/v1/create-qr-code/?data={Uri.EscapeDataString(otpAuthUrl)}";
+
+            return Ok(new
+            {
+                secret = base32Secret,
+                qrCodeUrl = qrCodeImageUrl
+            });
+        }
+
+
+        [HttpPost]
+        [Route("/Verify2FA")]
+        public async Task<IActionResult> Verify2FA([FromBody] totpverify request)
+        {
+            _logger.LogInformation("Verify2fa controller called at" + DateTime.Now);
+            var result = _adminService.verify2fa(request.id, request.otp);
+
+            if (!result)
+                return Unauthorized("Invalid TOTP code");
+
+            return Ok(result);
+        }
+
 
 
         [HttpGet]

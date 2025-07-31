@@ -6,6 +6,8 @@ namespace AdminService.Interfaces
     {
         string GetMenu(int id);
         Task<List<ValidateUserLogin>> ValidateUserLoginAsync(string username, string password);
+        public bool verify2fa(int userid, string otp);
+
         Task<List<Usermaster>> Getusermaster();
 
         Task<List<Getrole>> Getroles();

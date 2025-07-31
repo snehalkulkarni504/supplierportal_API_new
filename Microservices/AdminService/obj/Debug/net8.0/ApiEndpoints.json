@@ -81,6 +81,22 @@
   },
   {
     "ContainingType": "AdminService.Controllers.AdminController",
+    "Method": "Generate2FASecretcode",
+    "RelativePath": "Generate2FASecretcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminService.Controllers.AdminController",
     "Method": "GetCountryDetails",
     "RelativePath": "GetCountryDetails",
     "HttpMethod": "GET",
@@ -214,6 +230,22 @@
       {
         "Name": "loginRequest",
         "Type": "AdminService.Models.ValidateUserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminService.Controllers.AdminController",
+    "Method": "Verify2FA",
+    "RelativePath": "Verify2FA",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AdminService.Models.totpverify",
         "IsRequired": true
       }
     ],

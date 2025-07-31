@@ -59,6 +59,59 @@
         }
       }
     },
+    "/Generate2FASecretcode": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Verify2FA": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/totpverify"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/totpverify"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/totpverify"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/Getusermaster": {
       "get": {
         "tags": [
@@ -618,6 +671,29 @@
           "supplierId": {
             "type": "integer",
             "format": "int32",
+            "nullable": true
+          },
+          "userType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "authSecretCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "totpverify": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otp": {
+            "type": "string",
             "nullable": true
           }
         },

@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "ReportService.Controllers.ReportController",
+    "Method": "GetLotDeletionDetails",
+    "RelativePath": "GetLotDeletionDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportService.Controllers.ReportController",
     "Method": "Getpodetails",
     "RelativePath": "Getpodetailsreport",
     "HttpMethod": "GET",

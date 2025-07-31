@@ -4,10 +4,15 @@ using SupplierService.Context;
 using SupplierService.Exceptions;
 using SupplierService.Interfaces;
 using SupplierService.Models;
+using OfficeOpenXml;
 using System.Data;
 using Microsoft.EntityFrameworkCore;
 using Dapper;
+
 using System.Threading.Channels;
+using Microsoft.AspNetCore.Http.HttpResults;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace SupplierService.Repositories
 {
@@ -28,6 +33,93 @@ namespace SupplierService.Repositories
             //_context = context; 
 
         }
+
+        public async Task<bool> UploadBomData(IFormFile excelFile)
+        {
+            var ServerFilepath = @"D:\Suppliarportal_vishal\PoDocument";
+            if (!Directory.Exists(ServerFilepath))
+            {
+                Directory.CreateDirectory(ServerFilepath);
+            }
+            var filename = excelFile.FileName;
+            var filePath = Path.Combine(ServerFilepath, filename);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await excelFile.CopyToAsync(stream);
+
+            }
+            FileInfo fileInfo = new FileInfo(filePath);
+            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            // List<BomDetails> bomDetails = new List<BomDetails>();
+            int excelrowcount = 0;
+
+            try
+            {
+                using (ExcelPackage package = new ExcelPackage(fileInfo))
+                {
+                    ExcelWorksheet worksheet = package.Workbook.Worksheets[0]; // Assuming data is in the first worksheet
+                                                                               // excelrowcount = worksheet.Dimension.End.Row;
+                    int lastUsedRow = worksheet.Dimension.End.Row;
+
+                    while (lastUsedRow >= 1)
+                    {
+                        bool isRowEmpty = true;
+
+                        for (int col = 1; col <= worksheet.Dimension.End.Column; col++)
+                        {
+                            if (worksheet.Cells[lastUsedRow, col].Value != null &&
+                                !string.IsNullOrWhiteSpace(worksheet.Cells[lastUsedRow, col].Text))
+                            {
+                                isRowEmpty = false;
+                                break;
+                            }
+                        }
+
+                        if (!isRowEmpty)
+                        {
+                            break;
+                        }
+
+                        lastUsedRow--;
+                    }
+                    for (int row = 2; row <= lastUsedRow; row++) // Assuming data starts from row 2
+                    {
+                        using (SqlConnection sql = new SqlConnection(connectionString))
+                        {
+                            sql.Open();
+                            int Output = 0;
+                            var dynamicparameters = new DynamicParameters();
+                            dynamicparameters.Add("@SupplierCode", worksheet.Cells[row, 6].Value?.ToString());
+                            dynamicparameters.Add("@PONumber", worksheet.Cells[row, 1].Value?.ToString());
+                            dynamicparameters.Add("@PODate", worksheet.Cells[row, 2].Value?.ToString());
+                            dynamicparameters.Add("@DocType", worksheet.Cells[row, 3].Value?.ToString());
+                            dynamicparameters.Add("@SupplierRemark", worksheet.Cells[row, 4].Value?.ToString());
+                            dynamicparameters.Add("@TPSRemark", worksheet.Cells[row, 5].Value?.ToString());
+                            dynamicparameters.Add("@CreatedBy", "Rohit Chakrabory");
+                            dynamicparameters.Add("@ModifiedBy", "Rohit Chakraborty");
+                            dynamicparameters.Add("@Status", worksheet.Cells[row, 7].Value?.ToString());
+
+                            // Calling the stored procedure
+                            await sql.ExecuteAsync("InsertPoHeader", dynamicparameters, commandType: CommandType.StoredProcedure);
+                            //Output = dynamicparameters.Get<int>("@Output");
+                            // ErrorMessage = dynamicparameters.Get<string>("@ErrorMessage");
+                            Output = 1;
+                        }
+
+
+
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+            }
+
+            return true;
+             
+        }
+
 
         public List<SupplierInfo> GetMaterialInfo()
         {
@@ -78,6 +170,68 @@ namespace SupplierService.Repositories
             return materialInfos;
         }
 
+        public List<POLotDetails> GetPoLotDetailsAll()
+        {
+            // List<POItemLotDetails> POItemLotdetsList = new List<POItemLotDetails>();
+            //List<POItemDetails> POItemdets = new List<POItemDetails>();
+            List<POLotDetails> POLotdets = new List<POLotDetails>();
+            DataSet dspoitemdets = new DataSet();
+            DataSet dspolotdets = new DataSet();
+            POItemLotDetails POItemLotdets = new POItemLotDetails();
+
+            try
+            {
+                _logger.LogInformation("GetPODetails API called at " + DateTime.Now.ToString());
+                // _logger.LogInformation("Type" + Type);
+                using (var sqlconnection = new SqlConnection(connectionString))
+                {
+                    dspoitemdets = new DataSet();
+                    // POItemdets = new List<POItemDetails>();
+                    sqlconnection.Open();
+
+
+                    dspolotdets = new DataSet();
+                    POLotdets = new List<POLotDetails>();
+                    SqlCommand cmd = new SqlCommand(SystemConstants.GetPOLotDetailsAll, sqlconnection);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    // cmd.Parameters.Add(new SqlParameter("@PONumber", ponumber));
+                    //cmd.Parameters.Add(new SqlParameter("@ItemNo", Convert.ToInt32(datarow["ItemNo"])));
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+                    adapter.Fill(dspolotdets);
+                    foreach (DataRowView datarowLots in dspolotdets.Tables[0].DefaultView)
+                    {
+                        POLotDetails POitemLots = new POLotDetails
+                        {
+                            lotnumber = datarowLots["LotNumber"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["LotNumber"]),
+                            lotqty = datarowLots["LotQty"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["LotQty"]),
+                            etd = datarowLots["ETD"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ETD"]).ToString("yyyy-MM-dd"),
+                            eta = datarowLots["ETA"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ETA"]).ToString("yyyy-MM-dd"),
+                            actualdispatch = string.IsNullOrEmpty(datarowLots["ActualDispatch"].ToString()) || datarowLots["ActualDispatch"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
+                            approvalstatus = string.IsNullOrEmpty(datarowLots["ApprovalStatus"].ToString()) || datarowLots["ApprovalStatus"] == DBNull.Value ? null : datarowLots["ApprovalStatus"].ToString(),
+                            ponumber = string.IsNullOrEmpty(datarowLots["PONumber"].ToString()) || datarowLots["PONumber"] == DBNull.Value ? null : datarowLots["PONumber"].ToString(),
+                            itemno = string.IsNullOrEmpty(datarowLots["ItemNo"].ToString()) || datarowLots["ItemNo"] == DBNull.Value ? null : datarowLots["ItemNo"].ToString(),
+                            materialdescription = string.IsNullOrEmpty(datarowLots["Description"].ToString()) || datarowLots["Description"] == DBNull.Value ? null : datarowLots["Description"].ToString(),
+                            Materialcode = string.IsNullOrEmpty(datarowLots["Metrialcode"].ToString()) || datarowLots["Metrialcode"] == DBNull.Value ? null : datarowLots["Metrialcode"].ToString(),
+                            status = string.IsNullOrEmpty(datarowLots["Status"].ToString()) || datarowLots["Status"] == DBNull.Value ? null : datarowLots["Status"].ToString(),
+                            suppliarname = string.IsNullOrEmpty(datarowLots["SupplierName"].ToString()) || datarowLots["SupplierName"] == DBNull.Value ? null : datarowLots["SupplierName"].ToString(),
+                            actualarrival = string.IsNullOrEmpty(datarowLots["ActualArrival"].ToString()) || datarowLots["ActualArrival"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
+
+                            //actualdispatch = datarowLots["ActualDispatch"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
+                            //actualarrival = datarowLots["ActualArrival"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
+                        };
+                        POLotdets.Add(POitemLots);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("GetPODetails API error: " + ex.Message);
+                throw new RepositoryException("Error fetching GetPODetails.", ex);
+            }
+            return POLotdets;
+        }
+
         public List<POHeader> GetPOHeader(string? SupplierCode = null)
         {
             List<POHeader> poheaders = new List<POHeader>();
@@ -93,6 +247,7 @@ namespace SupplierService.Repositories
                     SqlCommand cmd = new SqlCommand(SystemConstants.GetPOHeader, sqlconnection);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add(new SqlParameter("@SupplierCode", SupplierCode));
+                    cmd.Parameters.Add(new SqlParameter("@username", "Rohit"));
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     adapter.Fill(dspoheader);
 
@@ -111,6 +266,8 @@ namespace SupplierService.Repositories
                                 Status = datarow["Status"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["Status"]),
                                 SupplierRemark = datarow["SupplierRemark"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["SupplierRemark"]),
                                 TPSRemark = datarow["TPSRemark"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["TPSRemark"]),
+                                isPODeleted = datarow["isPODeleted"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["isPODeleted"]).Trim(),
+
                             };
                             poheaders.Add(pohead);
                         }
@@ -153,7 +310,7 @@ namespace SupplierService.Repositories
                         {
                             PONumbers ponos = new PONumbers
                             {
-                                PONumber = datarow["PONumber"] == DBNull.Value ? 0 : Convert.ToInt32(datarow["PONumber"]),
+                                PONumber = datarow["PONumber"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["PONumber"]),
                                 SupplierCode = datarow["SupplierCode"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["SupplierCode"]),
                             };
                             ponoslist.Add(ponos);
@@ -409,7 +566,7 @@ namespace SupplierService.Repositories
         //    return POItemdets;
         //}
 
-        public List<POItemLotDetails> GetPODetails(int ponumber)
+        public List<POItemLotDetails> GetPODetails(string ponumber)
         {
             List<POItemLotDetails> POItemLotdetsList = new List<POItemLotDetails>();
             List<POItemDetails> POItemdets = new List<POItemDetails>();
@@ -438,6 +595,7 @@ namespace SupplierService.Repositories
                         POItemLotdets.PONumber = dspoitemdets.Tables[0].Rows[0]["PONumber"].ToString();
                         POItemLotdets.PODate = Convert.ToDateTime(dspoitemdets.Tables[0].Rows[0]["PODate"]).ToString("yyyy-MM-dd");
                         POItemLotdets.DocType = dspoitemdets.Tables[0].Rows[0]["DocType"].ToString();
+                        POItemLotdets.isPODeleted = (dspoitemdets.Tables[0].Rows[0]["isPODeleted"].ToString().Trim());
                         foreach (DataRowView datarow in dspoitemdets.Tables[0].DefaultView)
                         {
                             POItemDetails POitems = new POItemDetails
@@ -447,6 +605,20 @@ namespace SupplierService.Repositories
                                 description = datarow["Description"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["Description"]),
                                 itemqty = datarow["ItemQty"] == DBNull.Value ? 0 : Convert.ToInt32(datarow["ItemQty"]),
                                 uom = datarow["UOM"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["UOM"]),
+                                ImportDomestic = datarow["ImportDomestic"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["ImportDomestic"]),
+                                PlantType = datarow["PlantType"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["PlantType"]),
+                                Type = datarow["Type"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["Type"]),
+                                GroupType = datarow["GroupType"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["GroupType"]),
+                                VendorCode = datarow["VendorCode"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["VendorCode"]),
+                                SupplierName = datarow["SupplierName"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["SupplierName"]),
+                                POCumulativeOrdQty = datarow["POCumulativeOrdQty"] == DBNull.Value ? 0 : Convert.ToInt32(datarow["POCumulativeOrdQty"]),
+                                POCumulativeOrdMW = datarow["POCumulativeOrdMW"] == DBNull.Value ? 0 : Convert.ToDecimal(datarow["POCumulativeOrdMW"]),
+                                InternalLCNo = datarow["InternalLCNo"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["InternalLCNo"]),
+                                InternalLCDate = datarow["InternalLCDate"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["InternalLCDate"]),
+                                ActLCNo = datarow["ActLCNo"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["ActLCNo"]),
+                                ActLCDate = datarow["Type"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["ActLCDate"]),
+                                BankName = datarow["BankName"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["BankName"]),
+                                INCOTerms = datarow["INCOTerms"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["INCOTerms"]),
                             };
                             dspolotdets = new DataSet();
                             POLotdets = new List<POLotDetails>();
@@ -467,7 +639,23 @@ namespace SupplierService.Repositories
                                     actualdispatch = string.IsNullOrEmpty(datarowLots["ActualDispatch"].ToString()) || datarowLots["ActualDispatch"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
 
                                     actualarrival = string.IsNullOrEmpty(datarowLots["ActualArrival"].ToString()) || datarowLots["ActualArrival"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
+                                   // approvalstatus = string.IsNullOrEmpty(datarowLots["ApprovalStatus"].ToString()) || datarowLots["ApprovalStatus"] == DBNull.Value ? null : datarowLots["ApprovalStatus"].ToString(),
+                                    //isCompleteDelivery = string.IsNullOrEmpty(datarowLots["isDeliveryComplete"].ToString()) || datarowLots["isDeliveryComplete"] == DBNull.Value ? null : datarowLots["isDeliveryComplete"].ToString(),
+                                    LotMW = datarowLots["LotMW"].ToString(),
+                                    LCL = datarowLots["LCL"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["LCL"]),
+                                    _20FeetGPContainer = datarowLots["_20FeetGPContainer"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["_20FeetGPContainer"]),
+                                    _40FeetGPHCContainers = datarowLots["_40FeetGPHCContainers"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["_40FeetGPHCContainers"]),
+                                    TotalCNTR = datarowLots["TotalCNTR"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["TotalCNTR"]),
+                                    //InvoiceNo = datarow["InvoiceNo"] == DBNull.Value ? string.Empty : Convert.ToString(datarow["InvoiceNo"]),
+                                    InvoiceNo = datarowLots["InvoiceNo"].ToString(),
 
+                                    InvoiceDate = string.IsNullOrEmpty(datarowLots["InvoiceDate"].ToString()) || datarowLots["InvoiceDate"] == DBNull.Value ? null : Convert.ToDateTime(datarowLots["InvoiceDate"]).ToString("yyyy-MM-dd"),
+                                    InvoiceVal_FC = datarowLots["InvoiceVal_FC"] == DBNull.Value ? 0 : Convert.ToDecimal(datarowLots["InvoiceVal_FC"]),
+                                    Currency = datarowLots["Currency"].ToString(),
+                                    InvoiceQty = datarowLots["InvoiceQty"] == DBNull.Value ? 0 : Convert.ToInt32(datarowLots["InvoiceQty"]),
+                                    PhysicalStatus = datarowLots["PhysicalStatus"].ToString(),
+                                    approvalstatus = datarowLots["ApprovalStatus"].ToString(),
+                                    isDeliveryComplete = datarowLots["isDeliveryComplete"] == DBNull.Value ? string.Empty : Convert.ToString(datarowLots["isDeliveryComplete"]).Trim(),
                                     //actualdispatch = datarowLots["ActualDispatch"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualDispatch"]).ToString("yyyy-MM-dd"),
                                     //actualarrival = datarowLots["ActualArrival"] == DBNull.Value ? DateTime.MinValue.ToString("yyyy-MM-dd") : Convert.ToDateTime(datarowLots["ActualArrival"]).ToString("yyyy-MM-dd"),
                                 };
@@ -523,6 +711,18 @@ namespace SupplierService.Repositories
                         dynamicParameters.Add("@ETA", POLots.eta);
                         dynamicParameters.Add("@ActualDispatch", POLots.actualdispatch);
                         dynamicParameters.Add("@ActualArrival", POLots.actualarrival);
+
+                        dynamicParameters.Add("@PhysicalStatus", POLots.PhysicalStatus);
+                        dynamicParameters.Add("@LotMW", POLots.lotmw);
+                        dynamicParameters.Add("@LCL", POLots.lcl);
+                        dynamicParameters.Add("@_20FeetGPContainer", POLots._20feetGPcontainer);
+                        dynamicParameters.Add("@_40FeetGPHCContainers", POLots._40feetGPHCcontainers);
+                        dynamicParameters.Add("@TotalCNTR", POLots.totalCNTR);
+                        dynamicParameters.Add("@InvoiceNo", POLots.invoiceno);
+                        dynamicParameters.Add("@InvoiceDate", POLots.invoicedate);
+                        dynamicParameters.Add("@InvoiceVal_FC", POLots.invoiceVal_FC);
+                        dynamicParameters.Add("@Currency", POLots.currency);
+                        dynamicParameters.Add("@InvoiceQty", POLots.invoiceQty);
                         sqlConnection.Query<int>(SystemConstants.UpsertPOLotDetails, dynamicParameters, commandType: CommandType.StoredProcedure);
 
                         isSuccess = true;
@@ -1027,7 +1227,7 @@ namespace SupplierService.Repositories
 
         //}
 
-        public async Task<int> DeleteLotNumber(int PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID)
+        public async Task<int> DeleteLotNumber(string PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID)
         {
             try
             {
@@ -1099,7 +1299,6 @@ namespace SupplierService.Repositories
                     sqlConnection.Open();
                     var dynamicParameters = new DynamicParameters();
                     dynamicParameters.Add("@filename", data.filename);
-                    dynamicParameters.Add("@documentno", data.documentno);
                     dynamicParameters.Add("@documenttype", data.documenttype);
                     dynamicParameters.Add("@pono", data.pono);
                     dynamicParameters.Add("@itemno", data.itemno);
@@ -1124,7 +1323,63 @@ namespace SupplierService.Repositories
             }
         }
 
-        public void docrevision(string filename, string documnetno, string pono, string itemno, int lotno)
+        public bool approvedoc(int docid)
+        {
+
+            bool Output = false;
+            try
+            {
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+                    var dynamicParameters = new DynamicParameters();
+                    dynamicParameters.Add("@docid", docid);
+         
+                    sqlConnection.QueryFirstOrDefault<int>(SystemConstants.approvestatus, dynamicParameters, commandType: CommandType.StoredProcedure);
+                    Output = true;
+                    sqlConnection.Close();
+
+                    return Output;
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public bool rejectdoc(int docid,string remark)
+        {
+
+            bool Output = false;
+            try
+            {
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+                    var dynamicParameters = new DynamicParameters();
+                    dynamicParameters.Add("@docid", docid);
+                    dynamicParameters.Add("@remark", remark);
+
+                    sqlConnection.QueryFirstOrDefault<int>(SystemConstants.rejectstatus, dynamicParameters, commandType: CommandType.StoredProcedure);
+                    Output = true;
+                    sqlConnection.Close();
+
+                    return Output;
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public void docrevision(string filename, string pono, string itemno, int lotno)
         {
             try
             {

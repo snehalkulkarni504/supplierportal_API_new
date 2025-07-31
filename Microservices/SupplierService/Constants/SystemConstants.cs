@@ -7,6 +7,7 @@
         public static string GetPOHeader = "GetPOHeader";
 
         public static string GetPONumber = "GetPONumber";
+        public static string GetPOLotDetailsAll = "GetPOLotDetailsAll";
 
         public static string GetPOItemDetails = "GetPOItemDetails";
 
@@ -36,6 +37,10 @@
 
         public static string Getdocdetails = "Getdocdetails";
         public static string uploaddocdetails = "uploaddocdetails";
+        public static string approvestatus = "approvestatus";
+        public static string rejectstatus = "rejectstatus";
+
+
         public static string docrevision = "docrevision";
 
         public static string GetSupplier = "GetSupplier";

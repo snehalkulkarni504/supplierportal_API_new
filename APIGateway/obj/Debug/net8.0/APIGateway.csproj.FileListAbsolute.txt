@@ -567,3 +567,483 @@ D:\Supplier Portal\supplierportal_API_new\APIGateway\obj\Debug\net8.0\refint\API
 D:\Supplier Portal\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.pdb
 D:\Supplier Portal\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
 D:\Supplier Portal\supplierportal_API_new\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ocelot.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.exe
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+D:\Github Projects\supplierportal_API_new\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ocelot.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.staticwebassets.endpoints.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.exe
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+D:\Suppliarportal_vishal\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ocelot.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.staticwebassets.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.exe
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+C:\Users\byy927810\Downloads\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ocelot.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.staticwebassets.endpoints.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.exe
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+C:\Users\vkk923931\Downloads\supplierportal_new_bikas\supplierportal_new 1\supplierportal_API_new (2) (1)\supplierportal_API_new\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ocelot.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.AdminService.api.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.ReportService.api.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SupplierService.api.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\ProductionRoutes\ocelot.SwaggerEndPoints.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.AdminService.api.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.ReportService.api.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SupplierService.api.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Routes\ocelot.SwaggerEndPoints.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.staticwebassets.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.exe
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.deps.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.runtimeconfig.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\APIGateway.pdb
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Kros.Utils.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\MMLib.SwaggerForOcelot.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Ocelot.Provider.Polly.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.AssemblyReference.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.AssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.sourcelink.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\scopedcss\bundle\APIGateway.styles.css
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.APIGateway.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.APIGateway.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIGateway.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIGateway.props
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.csproj.Up2Date
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\refint\APIGateway.dll
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.pdb
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\APIGateway.genruntimeconfig.cache
+C:\Users\byy927810\Downloads\supplierportal_API\supplierportal_API_new\APIGateway\obj\Debug\net8.0\ref\APIGateway.dll

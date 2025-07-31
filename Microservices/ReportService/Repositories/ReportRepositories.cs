@@ -66,7 +66,7 @@ namespace ReportService.Repositories
                                 {
                                     suppliercode = row["suppliercode"] != DBNull.Value ? row["suppliercode"].ToString() : null,
                                     suppliername = row["suppliername"] != DBNull.Value ? row["suppliername"].ToString() : null,
-                                    pono = row["pono"] != DBNull.Value ? (int?)Convert.ToInt32(row["pono"]) : null,
+                                    pono = row["pono"] != DBNull.Value ? row["pono"].ToString() : null,
                                     itemno = row["itemno"] != DBNull.Value ? (int?)Convert.ToInt32(row["itemno"]) : null,
                                     lotno = row["lotno"] != DBNull.Value ? (int?)Convert.ToInt32(row["lotno"]) : null,
                                     materialcode = row["materialcode"] != DBNull.Value ? row["materialcode"].ToString() : null,
@@ -74,10 +74,11 @@ namespace ReportService.Repositories
                                     materialqty = row["materialqty"] != DBNull.Value ? (int?)Convert.ToInt32(row["materialqty"]) : null,
                                     materialuom = row["materialuom"] != DBNull.Value ? row["materialuom"].ToString() : null,
                                     eta = row["ETA"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(row["ETA"]) : null,
-
+                                    LotQty = row["LotQty"] != DBNull.Value ? (int?)Convert.ToInt32(row["LotQty"]):null,
                                     deliverystatus = row["deliverystatus"] != DBNull.Value ? row["deliverystatus"].ToString() : null,
                                     etd = row["ETD"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(row["ETD"]) : null,
-
+                                    ActualArrival= row["ActualArrival"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(row["ActualArrival"]) : null,
+                                    ActualDispatch= row["ActualDispatch"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(row["ActualDispatch"]) : null,
                                 };
 
 

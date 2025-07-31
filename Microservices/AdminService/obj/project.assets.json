@@ -637,6 +637,15 @@
           }
         }
       },
+      "Otp.NET/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Otp.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Otp.NET.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -2156,6 +2165,26 @@
         "packageIcon.png"
       ]
     },
+    "Otp.NET/1.4.0": {
+      "sha512": "Fk1NKc0lWmlo6LAFYpFJInRgFKt72knRNEvxndDYoQHFwYOPXav+WEUBvQA0k4lxq5xt0SymrZ+oi0F/G40bPQ==",
+      "type": "package",
+      "path": "otp.net/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net461/Otp.NET.dll",
+        "lib/net5.0/Otp.NET.dll",
+        "lib/net6.0/Otp.NET.dll",
+        "lib/net7.0/Otp.NET.dll",
+        "lib/net8.0/Otp.NET.dll",
+        "lib/netstandard2.0/Otp.NET.dll",
+        "otp.net.1.4.0.nupkg.sha512",
+        "otp.net.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -2876,6 +2905,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Newtonsoft.Json >= 13.0.3",
+      "Otp.NET >= 1.4.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -2886,11 +2916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\AdminService.csproj",
+      "projectUniqueName": "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\AdminService\\AdminService.csproj",
       "projectName": "AdminService",
-      "projectPath": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\AdminService.csproj",
+      "projectPath": "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\AdminService\\AdminService.csproj",
       "packagesPath": "C:\\Users\\byy927810\\.nuget\\packages\\",
-      "outputPath": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\AdminService\\obj\\",
+      "outputPath": "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\AdminService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2923,7 +2953,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -2957,6 +2987,10 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
+          "Otp.NET": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -2981,7 +3015,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

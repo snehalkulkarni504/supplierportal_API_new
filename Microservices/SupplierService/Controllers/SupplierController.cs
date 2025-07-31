@@ -71,6 +71,31 @@ namespace SupplierService.Controllers
 
         }
 
+
+        [HttpGet]
+        [Route("/GetPODetailsAll")]
+        public async Task<IActionResult> GetPODetailsAll()
+        {
+            try
+            {
+                _logger.LogInformation("GetPODetails API started at:" + DateTime.Now);
+                List<POLotDetails> POItemLotDetails = _supplierPortal.GetPoLotDetailsAll();
+                var result = POItemLotDetails;
+                return Ok(result);
+            }
+            catch (RepositoryException ex)
+            {
+                _logger.LogError("GetPoLotDetailsAll API Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("GetPODetails API Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+
+        }
+
         [HttpGet]
         [Route("/GetPONumber")]
         public async Task<IActionResult> GetPONumber(string? suppliercode = null)
@@ -121,7 +146,7 @@ namespace SupplierService.Controllers
 
         [HttpGet]
         [Route("/GetPODetails")]
-        public async Task<IActionResult> GetPODetails(int PONumber)
+        public async Task<IActionResult> GetPODetails(string PONumber)
         {
             try
             {
@@ -289,16 +314,13 @@ namespace SupplierService.Controllers
 
         [HttpPost]
         [Route("/DownloadMultipleFiles")]
-        public IActionResult DownloadMultipleFiles([FromBody] List<downloaddata> requests)
+        public IActionResult DownloadMultipleFiles([FromBody] downloaddata request)
         {
             string basePath = @"D:\File";
-
             using (var memoryStream = new MemoryStream())
             {
                 using (var zipArchive = new ZipArchive(memoryStream, ZipArchiveMode.Create, true))
                 {
-                    foreach (var request in requests)
-                    {
                         string filePath = Path.Combine(basePath, request.poNumber.ToString(), request.itemNumber.ToString(), request.lotNumber.ToString(), request.fileName);
 
                         if (System.IO.File.Exists(filePath))
@@ -315,7 +337,7 @@ namespace SupplierService.Controllers
                         {
                             Console.WriteLine($"File not found: {filePath}");
                         }
-                    }
+                    
                 }
 
                 memoryStream.Seek(0, SeekOrigin.Begin);
@@ -324,6 +346,46 @@ namespace SupplierService.Controllers
                 return File(memoryStream.ToArray(), "application/zip", "Documents.zip");
             }
         }
+
+        [HttpGet]
+        [Route("/approvedoc/{docid}")]
+        public async Task<IActionResult> approvedoc(int docid)
+        {
+            try
+            {
+                _logger.LogInformation("this api calls at:" + DateTime.Now.ToString());
+                bool approvestatus = _supplierPortal.approvedoc(docid);
+                var result = approvestatus;
+                return Ok(result);
+
+            }
+            catch (RepositoryException ex)
+            {
+                _logger.LogInformation("Getdivisionsite API Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+        }
+
+        [HttpGet]
+        [Route("/rejectdoc/{docid}/{remark}")]
+        public async Task<IActionResult> rejectdoc(int docid,string remark)
+        {
+            try
+            {
+                _logger.LogInformation("this api calls at:" + DateTime.Now.ToString());
+                bool rejectstatus = _supplierPortal.rejectdoc(docid,remark);
+                var result = rejectstatus;
+                return Ok(result);
+
+            }
+            catch (RepositoryException ex)
+            {
+                _logger.LogInformation("Getdivisionsite API Error :", ex.Message);
+                return StatusCode(500, new { Message = ex.Message, Details = ex.InnerException?.Message });
+            }
+        }
+
+
 
         #endregion
 
@@ -514,7 +576,7 @@ namespace SupplierService.Controllers
         [HttpPost]
         [Route("/UploadDoc")]
         [Consumes("multipart/form-data")]
-        public async Task<IActionResult> UploadFile([FromForm] IFormFile file, [FromForm] string docno, [FromForm] string doctype, [FromForm] string poNumber, [FromForm] string itemNumber, [FromForm] string lotNumber, [FromForm] string remarks, [FromForm] string updatedby)
+        public async Task<IActionResult> UploadFile([FromForm] IFormFile file, [FromForm] string doctype, [FromForm] string poNumber, [FromForm] string itemNumber, [FromForm] string lotNumber, [FromForm] string ? remarks, [FromForm] string updatedby)
         {
             if (file == null || file.Length == 0)
             {
@@ -554,19 +616,19 @@ namespace SupplierService.Controllers
 
                 if (revision == 1)
                 {
-                    _supplierPortal.docrevision(filename, docno, poNumber, itemNumber, Convert.ToInt32(lotNumber));
+                    _supplierPortal.docrevision(filename, poNumber, itemNumber, Convert.ToInt32(lotNumber));
                 }
                 else
                 {
                     docuploaddetails data = new docuploaddetails();
                     data.filename = filename;
-                    data.documentno = docno;
                     data.documenttype = doctype;
                     data.pono = poNumber;
                     data.itemno = itemNumber;
                     data.lotno = Convert.ToInt32(lotNumber);
                     data.remarks = remarks;
                     data.updatedby = updatedby;
+
                     _supplierPortal.uploaddocdetails(data);
                 }
 
@@ -581,10 +643,20 @@ namespace SupplierService.Controllers
 
         #endregion
 
+        [HttpPost]
+        [Route("/UploadBomData")]
+        public async Task<IActionResult> UploadBomData([FromForm] IFormFile excelFile)
+        {
+            //string errorMessage = "";
+            _logger.LogInformation("UploadBomtData Controller Started at:" + DateTime.Now);
+            var result = await _supplierPortal.UploadBomData(excelFile);
+            return Ok(result);
+        }
+
         #region Delete Methods
         [HttpDelete]
         [Route("/DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}/{Reason}/{qty}/{userID}")]
-        public async Task<IActionResult> DeleteSelectedWbs(int PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID)
+        public async Task<IActionResult> DeleteSelectedWbs(string PONumber, int ItemNo, int LotNumber, string Reason, int qty, int userID)
         {
             try
             {

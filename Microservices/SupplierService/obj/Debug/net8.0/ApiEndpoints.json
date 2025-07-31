@@ -33,15 +33,31 @@
   },
   {
     "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "approvedoc",
+    "RelativePath": "approvedoc/{docid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "docid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
     "Method": "DeleteSelectedWbs",
-    "RelativePath": "DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}",
+    "RelativePath": "DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}/{Reason}/{qty}/{userID}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "PONumber",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -51,6 +67,21 @@
       },
       {
         "Name": "LotNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Reason",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "qty",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userID",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -82,8 +113,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "requests",
-        "Type": "System.Collections.Generic.List\u00601[[SupplierService.Models.downloaddata, SupplierService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "request",
+        "Type": "SupplierService.Models.downloaddata",
         "IsRequired": true
       }
     ],
@@ -135,10 +166,20 @@
     "Parameters": [
       {
         "Name": "PONumber",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "GetPODetailsAll",
+    "RelativePath": "GetPODetailsAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -235,6 +276,27 @@
   },
   {
     "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "rejectdoc",
+    "RelativePath": "rejectdoc/{docid}/{remark}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "docid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "remark",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
     "Method": "UpdateUserData",
     "RelativePath": "UpdateRoleData",
     "HttpMethod": "POST",
@@ -261,6 +323,47 @@
         "Name": "user",
         "Type": "SupplierService.Models.Updateuser",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplierService.Controllers.SupplierController",
+    "Method": "UploadBomData",
+    "RelativePath": "UploadBomData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -300,11 +403,6 @@
       },
       {
         "Name": "FileName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "docno",
         "Type": "System.String",
         "IsRequired": false
       },

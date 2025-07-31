@@ -39,6 +39,18 @@
         }
       }
     },
+    "/GetPODetailsAll": {
+      "get": {
+        "tags": [
+          "Supplier"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/GetPONumber": {
       "get": {
         "tags": [
@@ -72,8 +84,7 @@
             "in": "query",
             "style": "form",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
@@ -195,30 +206,78 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/downloaddata"
-                }
+                "$ref": "#/components/schemas/downloaddata"
               }
             },
             "text/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/downloaddata"
-                }
+                "$ref": "#/components/schemas/downloaddata"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/downloaddata"
-                }
+                "$ref": "#/components/schemas/downloaddata"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/approvedoc/{docid}": {
+      "get": {
+        "tags": [
+          "Supplier"
+        ],
+        "parameters": [
+          {
+            "name": "docid",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/rejectdoc/{docid}/{remark}": {
+      "get": {
+        "tags": [
+          "Supplier"
+        ],
+        "parameters": [
+          {
+            "name": "docid",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "remark",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Success"
@@ -472,9 +531,6 @@
                   "FileName": {
                     "type": "string"
                   },
-                  "docno": {
-                    "type": "string"
-                  },
                   "doctype": {
                     "type": "string"
                   },
@@ -514,9 +570,6 @@
                 "FileName": {
                   "style": "form"
                 },
-                "docno": {
-                  "style": "form"
-                },
                 "doctype": {
                   "style": "form"
                 },
@@ -546,7 +599,75 @@
         }
       }
     },
-    "/DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}": {
+    "/UploadBomData": {
+      "post": {
+        "tags": [
+          "Supplier"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ContentType": {
+                    "type": "string"
+                  },
+                  "ContentDisposition": {
+                    "type": "string"
+                  },
+                  "Headers": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "Length": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "FileName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ContentType": {
+                  "style": "form"
+                },
+                "ContentDisposition": {
+                  "style": "form"
+                },
+                "Headers": {
+                  "style": "form"
+                },
+                "Length": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "FileName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DeleteLotDetail/{PONumber}/{ItemNo}/{LotNumber}/{Reason}/{qty}/{userID}": {
       "delete": {
         "tags": [
           "Supplier"
@@ -558,8 +679,7 @@
             "required": true,
             "style": "simple",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           },
           {
@@ -574,6 +694,35 @@
           },
           {
             "name": "LotNumber",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Reason",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "qty",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userID",
             "in": "path",
             "required": true,
             "style": "simple",
@@ -754,6 +903,50 @@
           },
           "isNew": {
             "type": "boolean"
+          },
+          "lotmw": {
+            "type": "string",
+            "nullable": true
+          },
+          "lcl": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "_20feetGPcontainer": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "_40feetGPHCcontainers": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCNTR": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invoiceno": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoicedate": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceVal_FC": {
+            "type": "number",
+            "format": "double"
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceQty": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "physicalStatus": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

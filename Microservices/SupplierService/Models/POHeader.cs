@@ -11,5 +11,6 @@
         public string Status { get; set; }
         public string SupplierRemark { get; set; }
         public string TPSRemark { get; set; }
+        public string isPODeleted { get; set; }
     }
 }

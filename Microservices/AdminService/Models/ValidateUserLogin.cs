@@ -8,6 +8,8 @@
         public string Password { get; set; }
         public bool? IsActive { get; set; }
         public int? SupplierId { get; set; }
+        public int? UserType { get; set; }
+        public string? AuthSecretCode { get; set; }
     }
 
 }

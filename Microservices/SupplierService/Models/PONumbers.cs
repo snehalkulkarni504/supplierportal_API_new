@@ -3,7 +3,7 @@
     public class PONumbers
     {
         public string SupplierCode { get; set; }
-        public int PONumber { get; set; }
+        public string PONumber { get; set; }
 
     }
 }

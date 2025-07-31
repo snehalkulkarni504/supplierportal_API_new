@@ -14,5 +14,17 @@
         public string attachment { get; set; }
         public bool isEditing { get; set; }
         public bool isNew { get; set; }
+
+        public string? lotmw { get; set; }
+        public int lcl { get; set; }
+        public int _20feetGPcontainer { get; set; }
+        public int _40feetGPHCcontainers { get; set; }
+        public int totalCNTR { get; set; }
+        public string? invoiceno { get; set; }
+        public string? invoicedate { get; set; }
+        public decimal invoiceVal_FC { get; set; }
+        public string? currency { get; set; }
+        public int invoiceQty { get; set; }
+        public string? PhysicalStatus { get; set; }
     }
 }

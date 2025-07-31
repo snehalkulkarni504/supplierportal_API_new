@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj": {}
+    "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj": {}
   },
   "projects": {
-    "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj": {
+    "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj",
+        "projectUniqueName": "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj",
         "projectName": "SupplierService",
-        "projectPath": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj",
+        "projectPath": "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\SupplierService\\SupplierService.csproj",
         "packagesPath": "C:\\Users\\byy927810\\.nuget\\packages\\",
-        "outputPath": "D:\\Supplier Portal\\supplierportal_API_new\\Microservices\\SupplierService\\obj\\",
+        "outputPath": "C:\\Users\\byy927810\\Downloads\\supplierportal_API\\supplierportal_API_new\\Microservices\\SupplierService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +53,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -94,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
